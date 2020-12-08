@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yatra One', cursive;
+}
+
+#search-box{
+    padding: 0px;
+    border-radius: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+#search-text{
+    padding: 0;
+    height: 40px;
+    border-radius: 40px;
+    background-color: navajowhite;
+    width: 0;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#search-btn{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: navajowhite;
+}
+
+.card{
+    /*text-align: center;*/
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    /*margin-bottom: 100px;*/
+}
+
+.card-deck{
+    margin-bottom: 100px;
+}
+/*About Page*/
+
+#background1{
+    background-image: url("../img/aboutpage/banner.jpeg");
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#middle{
+    margin-top: 25vh;
+}
+
+#background2{
+    background-image: url("../img/aboutpage/banner2.jpeg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    filter: blur(0);
+}
+
+.carousel-fade .active.left {
+    left:0;
+    opacity:0;
+    -webkit-transition: opacity 1s; /*time < to $.carousel.interval setup */
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity1s;
+    -o-transition: opacity 1s;
+    transition: opacity  1s;
+    z-index:2;
+
+}
+
+.carousel-fade .next {
+
+    left:0;
+    opacity:1;
+    z-index:1;
+
+}
+
+/*Coursel*/
+.carousel h5{
+    font-size: 1.9rem;
+}
+
+.carousel p{
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+/*Cards*/
+.card ul{
+    list-style: none;
+}
+
+.card ul li{
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+
+}
+.card h4 strong a{
+    color: #721c24;
+}
+
+.card h5{
+    font-weight: bold;
+    color: #040505;
+    font-family: "Arial Nova";
+}
+
+.card p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #721c24;
+    padding-top: 1rem;
+    font-family: "Arial Nova";
+}
+
+.container,
+.container-fluid{
+    margin-top: 1.5rem;
+}
+
+footer header, p, a{
+    font-family: "Arial Nova";
+}
+
+#product-caoursel img:hover{
+    transform: scale(1.3);
+    transition: transform .5s ease;
+    filter: blur(0);
+}
+
+.alert{
+    display:none;
+}
+
+.review-img{
+    border-radius: 40%;
+}
+
+a[data-toggle="tooltip"]{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a[id="search-btn"]{
+    cursor: pointer;
+}
+
+i[data-target="#cartModal"]{
+    cursor: pointer;
+}
+
+/*.fa-shopping-cart:before {
+  content: "\f07a";
+  color:black;
+}*/
+
+
+/*i[class="fas fa-shopping-cart"] a{
+    color: black !important;
+}*/
+
+.card-deck .card {
+    max-width: calc(30%);
+}
