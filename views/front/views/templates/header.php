@@ -30,7 +30,7 @@ use Woh\front\Front;
     <script src="<?=Utility::FrontAseets?>/js/bootstrap.min.js"></script>
     <script src="<?=Utility::FrontAseets?>/js/main.js"></script>
     <link rel="stylesheet" href="<?=Utility::FrontAseets?>css/style.css">
-    <title>World of HeadPhones | WoF</title>
+    <title>World of HeadPhones</title>
 </head>
 <body>
 
